@@ -1,6 +1,6 @@
 # LapEra Laptop Website
 
-![LapEra Logo](path/to/your/logo.png)
+![LapEra Logo](/LapEra/images/img1.png)
 
 Welcome to the LapEra Laptop Website repository! This repository contains the source code for the LapEra website, a platform dedicated to helping users find the perfect laptop for their needs. Explore a curated selection of laptops with detailed information to make informed decisions.
 
@@ -8,10 +8,7 @@ Welcome to the LapEra Laptop Website repository! This repository contains the so
 
 - [About LapEra](#about-lapera)
 - [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## About LapEra
 
@@ -33,7 +30,7 @@ To get started with the LapEra website locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/LapEra-Website.git
+   git clone https://github.com/Abhineshjha/LapEra-Website.git
 
 Certainly! Here's a comprehensive README in Markdown format for your LapEra laptop website:
 
@@ -41,7 +38,7 @@ markdown
 Copy code
 # LapEra Laptop Website
 
-![LapEra Logo](path/to/your/logo.png)
+![LapEra Logo](/LapEra/images/logo1.png)
 
 Welcome to the LapEra Laptop Website repository! This repository contains the source code for the LapEra website, a platform dedicated to helping users find the perfect laptop for their needs. Explore a curated selection of laptops with detailed information to make informed decisions.
 
