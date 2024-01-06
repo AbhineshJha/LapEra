@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/61673b2d06.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="form">
+        <form class="form-horizontal signup" onsubmit="validateForm(event)">
+            <div class="form-wrap" style="position: relative">
+                <h2>Sign Up</h2>
+
+                <div class="form-group">
+                    <div class="relative">
+                        <input class="form-control" id="name" type="text" required="" autofocus=""
+                            placeholder="Name" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="relative">
+                        <input class="form-control" id="email" type="email" required=""
+                            placeholder="Email" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="relative">
+                        <input class="form-control" id="number" type="tel" required=""
+                            placeholder="Phone Number" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="relative">
+                        <input class="form-control" id="password" type="password" required=""
+                            placeholder="Password" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="relative">
+                        <input class="form-control" id="confirmPassword" type="password" required=""
+                            placeholder="Confirm Password" />
+                    </div>
+                </div>
+                <div class="login-btn">
+                    <button class="movebtn movebtnsu" type="submit">
+                        Sign Up 
+                    </button>
+                </div>
+            </div>
+            <div class="sign-in">
+                <a href="/login/index.html" class="signbtn"><small>Already a member? Log In <i>(Click me)</i></small></a>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
