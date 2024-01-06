@@ -27,13 +27,13 @@ header {
     padding: 0;
   }
   
-  a {
+  nav a {
     color: black;
     text-decoration: none;
     transition: 0.3s;
   }
   
-  a:hover {
+  nav a:hover {
     opacity: 0.7;
   }
   
@@ -136,6 +136,7 @@ header {
     margin: 30px 0;
 
 }
+
 .navv  ul li a:hover{
     color: aqua;
     background-color: red;
@@ -161,6 +162,15 @@ header {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+}
+@media (max-width: 600px) {
+  .navv {
+      text-align: center;
+  }
+
+  ul {
+      flex-direction: column;
+  }
 }
 
 .laptop-type {
@@ -367,7 +377,7 @@ header {
     overflow: hidden;
   }
   .footer-wave {
-    background-image: url("images/footer-img.png");
+    background-image: url("/LapEra/images/footer-img.png");
     position: absolute;
     left: 0;
     top: 0;
