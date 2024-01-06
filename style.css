@@ -497,6 +497,9 @@ h3{
   .single-footer ul {
     list-style: none;
   }
+  .single-footer p{
+    color: white;
+  }
   .single-footer ul li {
     margin-bottom: 10px;
     position: relative;
