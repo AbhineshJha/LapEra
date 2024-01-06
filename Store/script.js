@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('nav a');
+    const navLinks = document.querySelectorAll('.navv ul li a');
 
     // Smooth scroll to target section
     navLinks.forEach(link => {
