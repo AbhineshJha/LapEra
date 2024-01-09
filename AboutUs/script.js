@@ -42,3 +42,37 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get the slider wrapper and items
+        var sliderWrapper = document.querySelector(".slider-wrapper");
+        var sliderItems = document.querySelectorAll(".slider-item");
+
+        // Set the index and width variables
+        var currentIndex = 0;
+        var itemWidth = sliderItems[0].clientWidth;
+
+        // Function to move the slider to the next item
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % sliderItems.length;
+            updateSlider();
+        }
+
+        // Function to move the slider to the previous item
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + sliderItems.length) % sliderItems.length;
+            updateSlider();
+        }
+
+        // Function to update the slider position
+        function updateSlider() {
+            var newPosition = -currentIndex * itemWidth;
+            sliderWrapper.style.transform = "translateX(" + newPosition + "px)";
+        }
+
+        // Add event listeners for next and previous buttons
+        document.getElementById("nextBtn").addEventListener("click", nextSlide);
+        document.getElementById("prevBtn").addEventListener("click", prevSlide);
+    });

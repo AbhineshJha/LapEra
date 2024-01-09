@@ -1,6 +1,6 @@
 # LapEra Laptop Website
 
-![LapEra Logo](/LapEra/images/logo1.png)
+![LapEra Logo](/images/logo1.png)
 
 Welcome to the LapEra Laptop Website repository! This repository contains the source code for the LapEra website, a platform dedicated to helping users find the perfect laptop for their needs. Explore a curated selection of laptops with detailed information to make informed decisions.
 
